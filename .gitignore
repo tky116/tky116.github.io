@@ -1,0 +1,25 @@
+# Hugo specific
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Log files and backups
+*.log
+*.bak
+*.swp
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
