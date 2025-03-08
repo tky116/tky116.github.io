@@ -39,19 +39,15 @@ enableEmoji = true
 # メニュー設定
 [menu]
   [[menu.main]]
-    name = "ホーム"
+    name = "Home"
     url = "#about"
     weight = 10
   [[menu.main]]
-    name = "経験"
-    url = "#experience"
-    weight = 20
-  [[menu.main]]
-    name = "プロジェクト"
+    name = "Projects"
     url = "#projects"
     weight = 30
   [[menu.main]]
-    name = "連絡先"
+    name = "Contact"
     url = "#contact"
     weight = 40
 

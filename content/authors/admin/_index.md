@@ -14,21 +14,20 @@ status:
 superuser: true
 
 # 役職/ポジション
-role: ソフトウェアエンジニア
+role: 情報システム
 
 # 所属組織
 organizations:
-  - name: 株式会社○○
-    url: https://www.example.com/
+  - name: DENSO
+    url: https://www.denso.com/jp/ja/
 
 # 短い自己紹介
 bio: ソフトウェアエンジニアとして○○の開発に従事しています。
 
 # 興味/関心
 interests:
-  - Web開発
-  - クラウドコンピューティング
-  - マイクロサービス
+  - XR
+  - メタバース
 
 # 学歴
 education:
@@ -39,15 +38,26 @@ education:
 
 # SNS/ネットワーキング
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: mailto:your-email@example.com
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/tky116
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/dot_asterisk
+    label: X/Twitter
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/tky116
+    label: GitHub
+  - icon: youtube
+    icon_pack: fab
+    link: https://youtube.com/@tky116
+    label: YouTube
+  - icon: newspaper
+    icon_pack: fas
+    link: https://qiita.com/tky116
+    label: Qiita
+  - icon: newspaper
+    icon_pack: fas
+    link: https://zenn.dev/tky116
+    label: Zenn
 
 # 著者リストでハイライト表示するか
 highlight_name: true

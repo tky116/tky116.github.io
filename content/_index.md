@@ -8,7 +8,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: プロフィール
+      title: Biography
       username: admin
   
   - block: experience
@@ -35,7 +35,8 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: プロジェクト
+      title: Projects
+      subtitle: 成果物
       filters:
         folders:
           - project
@@ -54,18 +55,14 @@ sections:
   - block: contact
     id: contact
     content:
-      title: お問い合わせ
-      subtitle: ''
-      email: your-email@example.com
+      title: Contact
+      subtitle: '問い合わせ'
+      email: tky.tky.116@gmail.com
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: Twitter
           link: 'https://twitter.com/dot_asterisk'
-        - icon: github
-          icon_pack: fab
-          name: GitHub
-          link: 'https://github.com/tky116'
       autolink: true
     design:
       columns: '2'
