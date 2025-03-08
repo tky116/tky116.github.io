@@ -1,3 +1,67 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://tky116.github.io/'
+languageCode = 'ja-jp'
+title = 'tky'
+
+# 言語設定
+defaultContentLanguage = 'ja'
+hasCJKLanguage = true
+
+# その他の設定
+enableEmoji = true
+
+# モジュール設定を使用
+[module]
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind"
+
+# セキュリティ設定に環境変数アクセス許可を追加
+[security.funcs]
+  getenv = ['^HUGO_', '^CI$', '^WC_']
+
+# Markdownレンダリング設定
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# サイトマップ設定
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# メニュー設定
+[menu]
+  [[menu.main]]
+    name = "ホーム"
+    url = "#about"
+    weight = 10
+  [[menu.main]]
+    name = "経験"
+    url = "#experience"
+    weight = 20
+  [[menu.main]]
+    name = "プロジェクト"
+    url = "#projects"
+    weight = 30
+  [[menu.main]]
+    name = "連絡先"
+    url = "#contact"
+    weight = 40
+
+# パラメータ設定
+[params]
+  # SEO対策用メタデータ
+  description = "tky116のポートフォリオサイト"
+  author = "Takuya Okamoto"
+  
+  # SNSリンク設定
+  [params.social]
+    github = "tky116"
+    twitter = "dot_asterisk"

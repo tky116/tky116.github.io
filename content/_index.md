@@ -1,0 +1,72 @@
+---
+# ホームページのタイトル（空にするとサイトタイトルが使用される）
+title: ''
+date: 2024-03-09
+type: landing
+
+sections:
+  - block: about.biography
+    id: about
+    content:
+      title: プロフィール
+      username: admin
+  
+  - block: experience
+    id: experience
+    content:
+      title: 経験
+      date_format: 2006年1月
+      items:
+        - title: ソフトウェアエンジニア
+          company: 株式会社○○
+          company_url: ''
+          location: 東京
+          date_start: '2020-01-01'
+          date_end: ''
+          description: |2-
+              主な職務:
+              
+              * バックエンド開発
+              * クラウドインフラ構築
+              * チームリード
+    design:
+      columns: '2'
+  
+  - block: portfolio
+    id: projects
+    content:
+      title: プロジェクト
+      filters:
+        folders:
+          - project
+      default_button_index: 0
+      buttons:
+        - name: すべて
+          tag: '*'
+        - name: Web開発
+          tag: Web
+        - name: その他
+          tag: Other
+    design:
+      columns: '2'
+      view: showcase
+  
+  - block: contact
+    id: contact
+    content:
+      title: お問い合わせ
+      subtitle: ''
+      email: your-email@example.com
+      contact_links:
+        - icon: twitter
+          icon_pack: fab
+          name: Twitter
+          link: 'https://twitter.com/dot_asterisk'
+        - icon: github
+          icon_pack: fab
+          name: GitHub
+          link: 'https://github.com/tky116'
+      autolink: true
+    design:
+      columns: '2'
+---
