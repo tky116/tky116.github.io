@@ -1,6 +1,7 @@
 baseURL = 'https://tky116.github.io/'
 languageCode = 'ja-jp'
 title = 'tky'
+timeZone = "Asia/Tokyo"
 
 # 言語設定
 defaultContentLanguage = 'ja'
@@ -47,9 +48,13 @@ enableEmoji = true
     url = "#projects"
     weight = 30
   [[menu.main]]
+    name = "Achievements"
+    url = "#achievements"
+    weight = 40
+  [[menu.main]]
     name = "Contact"
     url = "#contact"
-    weight = 40
+    weight = 50
 
 # パラメータ設定
 [params]

@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # 役職/ポジション
-role: 情報システム
+role: ""
 
 # 所属組織
 organizations:
@@ -22,23 +22,24 @@ organizations:
     url: https://www.denso.com/jp/ja/
 
 # 短い自己紹介
-bio: ソフトウェアエンジニアとして○○の開発に従事しています。
+# bio: ソフトウェアエンジニアとして○○の開発に従事しています。
 
 # 興味/関心
 interests:
   - XR
   - メタバース
+  - ゲーム開発
 
 # 学歴
-education:
-  courses:
-    - course: 情報工学
-      institution: ○○大学
-      year: 20XX
+# education:
+#   courses:
+#     - course: 情報工学
+#       institution: ○○大学
+#       year: 20XX
 
 # SNS/ネットワーキング
 social:
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
     link: https://twitter.com/dot_asterisk
     label: X/Twitter
@@ -50,11 +51,11 @@ social:
     icon_pack: fab
     link: https://youtube.com/@tky116
     label: YouTube
-  - icon: newspaper
-    icon_pack: fas
+  - icon: quora
+    icon_pack: fab
     link: https://qiita.com/tky116
     label: Qiita
-  - icon: newspaper
+  - icon: z
     icon_pack: fas
     link: https://zenn.dev/tky116
     label: Zenn
@@ -63,4 +64,6 @@ social:
 highlight_name: true
 ---
 
-ここに詳細な自己紹介を記述します。経験、スキル、興味などについて2-3段落程度で説明すると良いでしょう。
+愛知県出身。
+VRプロフェッショナルアカデミーOB。
+好きなものはゲーム・筋トレ・謎解き・ドラム。

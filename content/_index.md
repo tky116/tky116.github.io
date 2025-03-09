@@ -1,37 +1,43 @@
 ---
 # ホームページのタイトル（空にするとサイトタイトルが使用される）
-title: ''
-date: 2024-03-09
+title: 'Portfolio'
+date: 2025-03-08
 type: landing
 
 sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: About me
       username: admin
-  
+
   - block: experience
-    id: experience
+    id: achievements
     content:
-      title: 経験
+      title: Achievements & Certifications
+      subtitle: 実績・資格
       date_format: 2006年1月
       items:
-        - title: ソフトウェアエンジニア
-          company: 株式会社○○
-          company_url: ''
-          location: 東京
-          date_start: '2020-01-01'
-          date_end: ''
-          description: |2-
-              主な職務:
-              
-              * バックエンド開発
-              * クラウドインフラ構築
-              * チームリード
+        - title: VRアカデミー賞・審査員特別賞 / VRフェス
+          company: VRプロフェッショナルアカデミー第16期
+          company_url: 'https://vrfes16.peatix.com/'
+          location: ''
+          date_start: '2025-03-01'
+          date_end: '2025-03-01'
+          description:
+            VR描画+生成AIを使用したアプリを制作し、審査の結果、審査員特別賞を受賞しました！
+        - title: 最優秀賞 / ハッカソン
+          company: VRプロフェッショナルアカデミー第16期
+          company_url: 'https://vracademy.jp/blog/16thhackathon/'
+          location: ''
+          date_start: '2024-11-30'
+          date_end: '2024-12-14'
+          description:
+            レメディ・アンド・カンパニー株式会社様よりお題をいただきVRアプリを作成。
+            審査の結果、最優秀賞を受賞しました！
     design:
-      columns: '2'
-  
+          columns: '2'
+
   - block: portfolio
     id: projects
     content:
@@ -44,8 +50,8 @@ sections:
       buttons:
         - name: すべて
           tag: '*'
-        - name: Web開発
-          tag: Web
+        - name: XR
+          tag: XR
         - name: その他
           tag: Other
     design:
@@ -59,9 +65,9 @@ sections:
       subtitle: '問い合わせ'
       email: tky.tky.116@gmail.com
       contact_links:
-        - icon: twitter
+        - icon: x-twitter
           icon_pack: fab
-          name: Twitter
+          name: X（Twitter）
           link: 'https://twitter.com/dot_asterisk'
       autolink: true
     design:
