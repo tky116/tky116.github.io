@@ -21,19 +21,19 @@ sections:
         - title: VRアカデミー賞・審査員特別賞 / VRフェス
           company: VRプロフェッショナルアカデミー第16期
           company_url: 'https://vrfes16.peatix.com/'
-          location: ''
+          location: '東京'
           date_start: '2025-03-01'
           date_end: '2025-03-01'
           description:
-            VR描画+生成AIを使用したアプリを制作し、審査の結果、審査員特別賞を受賞しました！
+            VR描画+生成AIを活用したアプリを制作し、審査の結果、審査員特別賞を受賞しました！
         - title: 最優秀賞 / ハッカソン
           company: VRプロフェッショナルアカデミー第16期
           company_url: 'https://vracademy.jp/blog/16thhackathon/'
-          location: ''
+          location: '東京'
           date_start: '2024-11-30'
           date_end: '2024-12-14'
           description:
-            レメディ・アンド・カンパニー株式会社様よりお題をいただきVRアプリを作成。
+            レメディ・アンド・カンパニー株式会社様 よりテーマをいただきVRアプリを作成。
             審査の結果、最優秀賞を受賞しました！
     design:
           columns: '2'

@@ -1,0 +1,19 @@
+// Achievements
+// 詳細情報を小さく
+#achievements .experience .text-muted.exp-meta,
+#achievements .experience .card-text,
+#achievements .experience .exp-company,
+#achievements .experience div[class*='text-muted'] {
+    font-size: 0.7rem !important;
+}
+
+// タイトルは通常サイズ
+#achievements .experience .section-subheading.card-title.exp-title {
+    font-size: 1rem !important;
+}
+
+// Projects
+// share-boxを非表示にする
+.share-box {
+    display: none !important;
+}
