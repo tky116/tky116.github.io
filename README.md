@@ -6,7 +6,7 @@ Hugoフレームワークを使用して構築しており、プロジェクト�
 
 ## 技術スタック
 - Windows 11
-- Go（1.24.1）
+- [Go（1.24.1）](https://go.dev/)
 - [Hugo](https://gohugo.io/) - 静的サイトジェネレーター
 - [Hugo Blox](https://hugoblox.com/)の[Academic CV](https://github.com/HugoBlox/theme-academic-cv.git) - テーマ
 - GitHub Actions - CI/CD
